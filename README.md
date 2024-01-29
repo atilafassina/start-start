@@ -1,8 +1,15 @@
 # StartStart
 
-You're started on SolidStart
+Getting a headstart onto [SolidStart](https://start.solidjs.com).
 
-As seen on [![cover on youtube for "Get Started with SolidStart"](/public/oss.png)](https://www.youtube.com/watch?v=2K5cLC_b64w)
+## What’s this?
+This is an opinionated starter built on top of the official template. Beyond the initial setup it has:
+
+- 🛟 Error boundary.
+- 🪃 Fetch requests with caching.
+- 🔮 Route data preloading.
+- Data handling within route with `<Suspense>` / `<Show>` combo.
+
 
 ## Clone it
 
@@ -10,4 +17,12 @@ As seen on [![cover on youtube for "Get Started with SolidStart"](/public/oss.pn
 pnpm dlx degit atilafassina/start-start
 ```
 
-This is an opinionated template that will bootstrap your starter, guide, or content creation with [SolidStart](https://start.solidjs.com)
+## Use it
+
+- To create new fetch requests, change the `src/lib/db.ts`.
+- Add new `.tsx` files to create more routes within the app.
+
+
+## Check the video guide
+
+[![cover on youtube for "Get Started with SolidStart"](/public/oss.png)](https://www.youtube.com/watch?v=2K5cLC_b64w)
